@@ -1,5 +1,3 @@
-
-
 def pasos(x):
     steps = 0
     i = 5
