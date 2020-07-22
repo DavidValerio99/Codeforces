@@ -1,7 +1,11 @@
 
+def problem(a):
+    for i in a:
+        if i==1:
+            return "HARD"
+    else:
+        return "EASY"
 n = int(input())
-a = input()
-for i in range(n):
-    if (int('a[i]' == 1):
-            print("HARD")
-print("EASY")
+a = map(int,input().split(" "))
+print(problem(a))
+
